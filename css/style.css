@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+/* header */
+.header{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    
+}
+
+.banner{
+    padding: 185px 200px;
+    text-align: right;
+    color: white;
+}
+
+.banner-titel{
+    font-size: 50px;
+}
+.banner-description{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.button-primary{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    color: #005FAC;
+}
+
