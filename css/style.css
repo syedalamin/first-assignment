@@ -1,31 +1,33 @@
-*{
+* {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
+
 /* header */
-.header{
+.header {
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
-    
+
 }
 
-.banner{
+.banner {
     padding: 185px 200px;
     text-align: right;
     color: white;
 }
 
-.banner-titel{
+.banner-titel {
     font-size: 50px;
 }
-.banner-description{
+
+.banner-description {
     margin-top: 20px;
     font-size: 18px;
 }
 
-.button-primary{
+.button-primary {
     padding: 10px 20px;
     border-radius: 5px;
     border: 0;
@@ -33,44 +35,96 @@
     font-size: 18px;
     color: #005FAC;
 }
+
 /* main */
-.main{
-    padding: 0px 200px;
+.main {
+
     margin-top: 100px;
 }
 
-.first-section{
+.first-section {
     display: flex;
     gap: 10px;
     align-items: center;
+    padding: 0px 200px;
 }
-.first-section-titel{
+
+.first-section-titel {
     color: black;
     font-size: 40px;
     margin-bottom: 20px;
 }
 
-.first-section-description{
+.first-section-description {
     color: gray;
     font-size: 15px;
     margin-bottom: 20px;
 }
-.first-section-icon-text{
+
+.first-section-icon-text {
     display: flex;
     gap: 10px;
     align-items: center;
     padding: 6px 0;
 }
-.first-section-icon{
+
+.first-section-icon {
     color: rgb(22, 194, 22);
 }
+
 /* second section */
-.second-section{
+.second-section {
     margin: 100px;
+    padding: 0px 100px;
 }
-.second-section-titel{
+
+.second-section-titel {
     text-align: center;
     color: black;
     font-size: 25px;
 }
 
+/* plans-item */
+
+.plans-item {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.plans-item-team {
+    align-items: center;
+    text-align: center;
+}
+
+.plans-item-description {
+    color: gray;
+}
+
+/* three-section */
+
+.three-section {
+    margin: 100px 200px;
+}
+
+.three-section-image {
+    background-image: url(../images/watch.png);
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+.three-section-image-two{
+    background-image: url(../images/gradient1.png);
+    background-repeat: no-repeat;  
+    background-size: 100% 100%;
+    height: 250px;
+}
+.three-section-background-text{
+    padding: 50px 50px;
+}
+.three-section-titel{
+    color: white;
+    font-size: 30px;
+}
