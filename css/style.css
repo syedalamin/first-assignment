@@ -105,70 +105,98 @@
 /* three-section */
 
 .three-section {
-    margin: 100px 200px;
+    margin: 50px 200px;
 }
 
 .three-section-image {
     background-image: url(../images/watch.png);
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 250px;
 }
 
-.three-section-image-two{
+.three-section-image-two {
     background-image: url(../images/gradient1.png);
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 250px;
 }
-.three-section-background-text{
+
+.three-section-background-text {
     padding: 50px 50px;
 }
-.three-section-titel{
+
+.three-section-titel {
     color: white;
     font-size: 30px;
 }
+
+/* table */
+.table-section {
+    padding: 10px 200px;
+    text-align: center;
+}
+.table-titel{
+    font-size: 35px;
+    padding: 40px 0px;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    border: 1px solid gray;
+    padding: 5px 30px;
+}
+
 /* footer */
-footer{
+footer {
     background-color: #151414;
     padding: 120px 200px;
+    margin-top: 20px;
     color: rgb(255, 255, 255);
 }
 
-.footer-titel{
+.footer-titel {
     font-size: 35px;
     margin-bottom: 10px;
 }
 
-.first-footer{
+.first-footer {
     display: flex;
     justify-content: space-between;
 }
-.footer-description{
+
+.footer-description {
     margin-bottom: 10px;
     font-size: 14px;
 }
-.footer-sub-description{
+
+.footer-sub-description {
     padding: 5px 0px;
     font-size: 14px;
 }
 
-.footer-icon{
+.footer-icon {
     display: flex;
-   padding: 20px 0px;
-   gap: 15px;
+    padding: 20px 0px;
+    gap: 15px;
 }
-.footer-icon li{
+
+.footer-icon li {
     list-style: none;
 }
 
-.footer-sub-titel{
+.footer-sub-titel {
     font-size: 20px;
     margin-bottom: 10px;
 }
 
 
-.footer-form input[type="email"]{
+.footer-form input[type="email"] {
     padding: 10px 10px;
     width: 100%;
     border: 1px solid gray;
@@ -177,13 +205,14 @@ footer{
 
 
 }
+
 .button-primary-footer {
     padding: 8px 20px;
     border-radius: 5px;
     border: 0;
     margin-top: 20px;
     font-size: 15px;
-    color: #ffffff ;
+    color: #ffffff;
     background-color: #005FAC;
-    
+
 }
