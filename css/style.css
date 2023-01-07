@@ -65,7 +65,7 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    padding: 6px 0;
+    padding: 6px 0px;
 }
 
 .first-section-icon {
@@ -131,11 +131,32 @@
 /* footer */
 footer{
     background-color: black;
-    padding: 50px 200px;
+    padding: 120px 200px;
     color: rgb(255, 255, 255);
 }
+
+.footer-titel{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
 .first-footer{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+.footer-description{
+    margin-bottom: 10px;
+}
+.footer-sub-description{
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+.footer-icon{
+    display: flex;
+   padding: 20px 0px;
+   gap: 15px;
+}
+.footer-icon li{
+    list-style: none;
 }
